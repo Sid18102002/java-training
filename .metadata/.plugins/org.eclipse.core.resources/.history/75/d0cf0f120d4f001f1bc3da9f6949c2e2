@@ -1,0 +1,12 @@
+package com.demo.DemoTestNG3;
+
+public class Groups {
+	@BeforeTest
+	public void test1() {
+		System.out.println("Test start...");	
+		}
+	
+	@AfterTest
+	
+
+}

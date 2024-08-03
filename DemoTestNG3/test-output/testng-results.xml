@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-31T14:02:07 IST" name="Default suite" finished-at="2024-07-31T14:02:07 IST" duration-ms="97">
+    <groups>
+    </groups>
+    <test started-at="2024-07-31T14:02:07 IST" name="Default test" finished-at="2024-07-31T14:02:07 IST" duration-ms="97">
+      <class name="com.demo.DemoTestNG3.demo2">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.demo.DemoTestNG3.demo2@5d0bf09b]" started-at="2024-07-31T14:02:07 IST" name="start" finished-at="2024-07-31T14:02:07 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="DBConnected()[pri:0, instance:com.demo.DemoTestNG3.demo2@5d0bf09b]" started-at="2024-07-31T14:02:07 IST" name="DBConnected" finished-at="2024-07-31T14:02:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DBConnected -->
+        <test-method signature="ctest()[pri:1, instance:com.demo.DemoTestNG3.demo2@5d0bf09b]" started-at="2024-07-31T14:02:07 IST" name="ctest" description="this is test c" finished-at="2024-07-31T14:02:07 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ctest -->
+        <test-method is-config="true" signature="DBDisconnected()[pri:0, instance:com.demo.DemoTestNG3.demo2@5d0bf09b]" started-at="2024-07-31T14:02:07 IST" name="DBDisconnected" finished-at="2024-07-31T14:02:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DBDisconnected -->
+        <test-method signature="dtest()[pri:3, instance:com.demo.DemoTestNG3.demo2@5d0bf09b]" started-at="2024-07-31T14:02:07 IST" name="dtest" description="this is test d" finished-at="2024-07-31T14:02:07 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dtest -->
+        <test-method is-config="true" signature="DBConnected()[pri:0, instance:com.demo.DemoTestNG3.demo2@5d0bf09b]" started-at="2024-07-31T14:02:07 IST" name="DBConnected" finished-at="2024-07-31T14:02:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DBConnected -->
+        <test-method is-config="true" signature="DBDisconnected()[pri:0, instance:com.demo.DemoTestNG3.demo2@5d0bf09b]" started-at="2024-07-31T14:02:07 IST" name="DBDisconnected" finished-at="2024-07-31T14:02:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DBDisconnected -->
+        <test-method signature="atest()[pri:4, instance:com.demo.DemoTestNG3.demo2@5d0bf09b]" started-at="2024-07-31T14:02:07 IST" name="atest" description="this is test a" finished-at="2024-07-31T14:02:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atest -->
+        <test-method is-config="true" signature="DBConnected()[pri:0, instance:com.demo.DemoTestNG3.demo2@5d0bf09b]" started-at="2024-07-31T14:02:07 IST" name="DBConnected" finished-at="2024-07-31T14:02:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DBConnected -->
+        <test-method is-config="true" signature="DBDisconnected()[pri:0, instance:com.demo.DemoTestNG3.demo2@5d0bf09b]" started-at="2024-07-31T14:02:07 IST" name="DBDisconnected" finished-at="2024-07-31T14:02:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DBDisconnected -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.demo.DemoTestNG3.demo2@5d0bf09b]" started-at="2024-07-31T14:02:07 IST" name="end" finished-at="2024-07-31T14:02:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.demo.DemoTestNG3.demo2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

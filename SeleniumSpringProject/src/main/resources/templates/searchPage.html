@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Page</title>
+</head>
+<body>
+    <h2>Enter Search Term</h2>
+    <form action="/display" method="post">
+        <label>Enter what you want to search:</label><br>
+        <input type="text" name="searchTerm"><br><br>
+        <input type="submit" value="Search">
+        <input type="hidden" name="browser" th:value="${browser}">
+    </form>
+</body>
+</html>

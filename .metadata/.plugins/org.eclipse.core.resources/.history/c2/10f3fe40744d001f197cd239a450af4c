@@ -1,0 +1,19 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class demo1 {
+
+	public static void main(String[] args) {
+		// FirefoxDriver ch = new FirefoxDriver();
+		ChromeDriver dr = new ChromeDriver();
+		dr.get("https://www.google.com");
+		dr.manage().window().fullscreen();
+		//dr.findElement(By.className("M6CB1c rr4y5c")).click();
+		// we can find the element by id/class/CSS
+		dr.findElement(By.id("APjFqb")).sendKeys("mobile");
+		dr.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[4]/center/input[1]")).click();
+		dr.findElement(By.className("LC20lb MBeuO DKV0Md")).click();
+	}
+
+}

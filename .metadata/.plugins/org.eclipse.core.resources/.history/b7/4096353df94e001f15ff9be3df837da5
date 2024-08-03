@@ -1,0 +1,11 @@
+package com.demo.DemoTestNG3;
+
+import org.testng.annotations.Test;
+
+public class logtest {
+	@Test
+	public void atest() {
+		System.out.println("hello");	
+		}
+
+}
